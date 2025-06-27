@@ -4,7 +4,6 @@ import math
 import pymunk.pygame_util
 
 pygame.init()
-
 WIDTH,HEIGHT = 1000,800
 window = pygame.display.set_mode((WIDTH, HEIGHT))
 

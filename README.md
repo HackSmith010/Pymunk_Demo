@@ -1,1 +1,1 @@
-This file is build for Pymunk Demo.
+This repo contains program which includes pymunk tutorial using python.

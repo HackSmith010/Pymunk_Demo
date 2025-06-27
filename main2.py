@@ -51,7 +51,7 @@ def setup_level(space, player_body):
     for x in range(0, 21):
         x = x * 20 + 100
         for y in range(0, 5):
-            y = y * 10 + 400
+            y = y * 10 + 400 
             brick_body = pymunk.Body(body_type=pymunk.Body.KINEMATIC)
             brick_body.position = x, y
             brick_shape = pymunk.Poly.create_box(brick_body, (20, 10))
